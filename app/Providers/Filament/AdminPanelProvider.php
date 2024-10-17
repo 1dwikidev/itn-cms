@@ -110,9 +110,9 @@ class AdminPanelProvider extends PanelProvider
                 NavigationItem::make()
                     ->label('Download Manager')
                     ->group('Content Management'),
-                NavigationItem::make()
-                    ->label('Menu Manager')
-                    ->group('Content Management'),
+                // NavigationItem::make()
+                //     ->label('Menu Manager')
+                //     ->group('Content Management'),
 
                 NavigationItem::make()
                     ->label('Partners')
@@ -127,9 +127,9 @@ class AdminPanelProvider extends PanelProvider
                 NavigationItem::make()
                     ->label('General')
                     ->group('Settings & Configuration'),
-                NavigationItem::make()
-                    ->label('Layouts')
-                    ->group('Settings & Configuration'),
+                // NavigationItem::make()
+                //     ->label('Layouts')
+                //     ->group('Settings & Configuration'),
             ]);
     }
 }
